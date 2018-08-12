@@ -8,6 +8,9 @@
                 <condition id="1" inverted="1" name="Is overlapping another object" sid="551669675925480" type="player">
                     <param id="0" name="Object">pontoons</param>
                 </condition>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="692869380598295" type="player">
+                    <param id="0" name="Object">goal</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="740346336266857" type="player" />
