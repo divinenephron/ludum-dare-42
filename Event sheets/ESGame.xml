@@ -13,7 +13,7 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="740346336266857" type="player" />
+                <action id="-26" name="Restart layout" sid="954193031213252" type="System" />
             </actions>
         </event-block>
         <event-block sid="498411074229605">
