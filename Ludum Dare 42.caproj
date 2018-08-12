@@ -18,6 +18,7 @@
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects />
     <configurations>
@@ -67,6 +68,13 @@
                         </collision-poly>
                     </frame>
                 </animation>
+                <animation framecount="5" loop="0" name="Fall" pingpong="0" repeatcount="1" repeatto="0" sid="131917014582298" speed="10">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\devon\Pictures\0000.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\devon\Pictures\0001.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\devon\Pictures\0002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\devon\Pictures\0003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\devon\Pictures\0004.png" />
+                </animation>
             </animation-folder>
         </object-type>
         <object-type name="Keyboard" sid="516739071824703">
@@ -88,6 +96,32 @@
                             <point x="0.971429" y="0.971429" />
                             <point x="0.5" y="1" />
                             <point x="0.0285714" y="0.971429" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="2" loop="1" name="Shake" pingpong="0" repeatcount="1" repeatto="0" sid="547747413689711" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\devon\Pictures\0001.png">
+                        <collision-poly>
+                            <point x="0.0857143" y="0.0857143" />
+                            <point x="0.5" y="0" />
+                            <point x="0.957143" y="0.0428571" />
+                            <point x="1" y="0.5" />
+                            <point x="0.957143" y="0.957143" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0714286" y="0.928571" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\devon\Pictures\0002.png">
+                        <collision-poly>
+                            <point x="0.0428571" y="0.0428571" />
+                            <point x="0.5" y="0" />
+                            <point x="0.914286" y="0.0857143" />
+                            <point x="1" y="0.5" />
+                            <point x="0.928571" y="0.928571" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0428571" y="0.957143" />
                             <point x="0" y="0.5" />
                         </collision-poly>
                     </frame>
@@ -167,6 +201,11 @@
         </object-type>
         <object-type name="lock" sid="443125942888438">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="917401429994855">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="888040655957725" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\devon\Documents\freebundle\Sprites\Platformer pack\Base pack\Tiles\lock_green.png">

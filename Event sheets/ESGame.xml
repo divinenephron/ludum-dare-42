@@ -13,7 +13,13 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-26" name="Restart layout" sid="954193031213252" type="System" />
+                <action behavior="8Direction" id="2" name="Set ignoring input" sid="118561405317852" type="player">
+                    <param id="0" name="Input">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="954193031213252" type="player">
+                    <param id="0" name="Animation">&quot;Fall&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="498411074229605">
@@ -23,8 +29,12 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="4" name="Set animation" sid="618219041302532" type="pontoons">
+                    <param id="0" name="Animation">&quot;Shake&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
                 <action id="-16" name="Wait" sid="789133273442599" type="System">
-                    <param id="0" name="Seconds">2.0</param>
+                    <param id="0" name="Seconds">1.0</param>
                 </action>
                 <action id="-9" name="Destroy" sid="955928667653625" type="pontoons" />
             </actions>
@@ -39,6 +49,20 @@
                 <action id="-43" name="Go to next/previous layout" sid="779784558841329" type="System">
                     <param id="0" name="Which">0</param>
                 </action>
+            </actions>
+        </event-block>
+        <event-block sid="584947341178468">
+            <conditions>
+                <condition id="4" name="On finished" sid="679580229353584" type="player">
+                    <param id="0" name="Animation">&quot;Fall&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="375159320880564" type="player" />
+                <action id="-16" name="Wait" sid="788779358245524" type="System">
+                    <param id="0" name="Seconds">0.25</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="995687995795500" type="System" />
             </actions>
         </event-block>
     </events>
