@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
-    <name>Ludum Dare 42</name>
-    <description></description>
+    <name>Collapsing Pontoon</name>
+    <description>My first 2D game, where you guide a bald person with a shiny head across very unstable floating wooden structures.</description>
     <version>1.0.0.0</version>
-    <author></author>
+    <author>Devon Buchanan</author>
     <author-email></author-email>
-    <author-website>http://</author-website>
-    <app-id>com.mycompany.myapp</app-id>
+    <author-website>http://divinenephron.co.uk</author-website>
+    <app-id>uk.org.divinenephron.collapsing-pontoon</app-id>
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>25900</saved-with-version>
     <used-plugins>
