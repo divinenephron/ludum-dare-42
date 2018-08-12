@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>ESGame</name>
+    <events>
+        <event-block sid="138665544880860">
+            <conditions>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="551669675925480" type="player">
+                    <param id="0" name="Object">pontoons</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="740346336266857" type="player" />
+            </actions>
+        </event-block>
+        <event-block sid="886924067728396">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="591604262735594" type="System">
+                    <param id="0" name="Interval (seconds)">1.0</param>
+                </condition>
+                <condition id="-16" name="Pick random instance" sid="172237165712798" type="System">
+                    <param id="0" name="Object">pontoons</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="940662065528399" type="pontoons" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
