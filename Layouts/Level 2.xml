@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Game</name>
-    <sid>8873350371196689</sid>
-    <event-sheet>ESGame</event-sheet>
+    <name>Level 2</name>
+    <sid>511476416884663</sid>
+    <event-sheet>ESLevel2</event-sheet>
     <size>
         <width>640</width>
         <height>480</height>
@@ -13,10 +13,10 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="background" sid="8722530541249526">
+        <layer name="background" sid="743614510098018">
             <initially-visible>1</initially-visible>
-            <background-color>0,204,255</background-color>
-            <transparent>0</transparent>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
             <parallax>
                 <x>1</x>
                 <y>1</y>
@@ -31,7 +31,7 @@
             <instances />
             <effects />
         </layer>
-        <layer name="environment" sid="334029532713213">
+        <layer name="environment" sid="677890093074151">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -47,7 +47,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="goal" uid="15">
+                <instance type="island" uid="21">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -69,7 +69,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pontoons" uid="3">
+                <instance type="pontoons" uid="22">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -91,7 +91,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pontoons" uid="4">
+                <instance type="pontoons" uid="23">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -113,7 +113,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pontoons" uid="5">
+                <instance type="pontoons" uid="24">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -135,7 +135,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pontoons" uid="6">
+                <instance type="pontoons" uid="25">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -157,7 +157,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pontoons" uid="7">
+                <instance type="pontoons" uid="26">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -179,7 +179,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pontoons" uid="8">
+                <instance type="pontoons" uid="27">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -201,7 +201,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pontoons" uid="9">
+                <instance type="pontoons" uid="28">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -223,7 +223,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pontoons" uid="10">
+                <instance type="pontoons" uid="29">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -245,7 +245,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pontoons" uid="11">
+                <instance type="pontoons" uid="30">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -267,7 +267,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pontoons" uid="12">
+                <instance type="pontoons" uid="31">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -289,7 +289,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pontoons" uid="13">
+                <instance type="pontoons" uid="32">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -311,7 +311,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pontoons" uid="14">
+                <instance type="pontoons" uid="33">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -323,6 +323,28 @@
                     <world>
                         <x>352</x>
                         <y>192</y>
+                        <z>0</z>
+                        <width>32</width>
+                        <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="island" uid="34">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>320</x>
+                        <y>96</y>
                         <z>0</z>
                         <width>32</width>
                         <height>32</height>
@@ -336,7 +358,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="objects" sid="708896362908547">
+        <layer name="objects" sid="777974261024942">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -352,7 +374,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="player" uid="2">
+                <instance type="player" uid="35">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -376,10 +398,32 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>320</x>
-                        <y>160</y>
+                        <y>96</y>
                         <z>0</z>
                         <width>22</width>
                         <height>22</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="goal" uid="36">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>320</x>
+                        <y>224</y>
+                        <z>0</z>
+                        <width>18</width>
+                        <height>18</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
