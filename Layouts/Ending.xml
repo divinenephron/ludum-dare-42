@@ -2,7 +2,7 @@
 <c2layout>
     <name>Ending</name>
     <sid>279614547765998</sid>
-    <event-sheet>Event sheet 1</event-sheet>
+    <event-sheet>ESEnding</event-sheet>
     <size>
         <width>640</width>
         <height>480</height>
@@ -67,6 +67,55 @@
                         <z>0</z>
                         <width>102</width>
                         <height>71</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="green_button" uid="4">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>325.359771729</x>
+                        <y>284.387786865</y>
+                        <z>0</z>
+                        <width>190</width>
+                        <height>49</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.510204077</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ReturnButton" uid="6">
+                    <properties>
+                        <text>Return to start</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-21.5,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>254.543395996</x>
+                        <y>268.99319458</y>
+                        <z>0</z>
+                        <width>146.118438721</width>
+                        <height>30</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

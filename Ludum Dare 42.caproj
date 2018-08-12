@@ -157,6 +157,9 @@
         <object-type name="Text3" sid="527155823734324">
             <plugin id="Text" />
         </object-type>
+        <object-type name="ReturnButton" sid="466103330055542">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -170,7 +173,7 @@
         <event-sheet>ESSplash.xml</event-sheet>
         <event-sheet>ESLevel1.xml</event-sheet>
         <event-sheet>ESLevel2.xml</event-sheet>
-        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>ESEnding.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="0" />
