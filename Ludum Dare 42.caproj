@@ -166,6 +166,7 @@
         <layout>Splash.xml</layout>
         <layout>Level 1.xml</layout>
         <layout>Level 2.xml</layout>
+        <layout>Level 3.xml</layout>
         <layout>Ending.xml</layout>
     </layout-folder>
     <event-folder>
@@ -174,6 +175,7 @@
         <event-sheet>ESLevel1.xml</event-sheet>
         <event-sheet>ESLevel2.xml</event-sheet>
         <event-sheet>ESEnding.xml</event-sheet>
+        <event-sheet>ESLevel3.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="0" />
