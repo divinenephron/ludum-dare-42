@@ -51,7 +51,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="426962392051547" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\devon\Documents\freebundle\Sprites\Puzzle assets\ballBlue.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\devon\Documents\freebundle\Sprites\Puzzle assets\ballGrey.png">
                         <collision-poly>
                             <point x="0.136364" y="0.136364" />
                             <point x="0.5" y="0" />
