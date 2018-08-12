@@ -1,2 +1,4 @@
 *.capx.backup?
 *.uistate.xml
+*.kra~
+*.autosave
