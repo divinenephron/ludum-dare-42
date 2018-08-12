@@ -4,5 +4,16 @@
     <name>ESLevel3</name>
     <events>
         <include>ESGame</include>
+        <event-block sid="781338786425524">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="395271815869886" type="player">
+                    <param id="0" name="Object">key</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="566570507963288" type="key" />
+                <action id="-9" name="Destroy" sid="755392236582670" type="lock" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
